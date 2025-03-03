@@ -1,9 +1,6 @@
-以下是根据你的需求重新设计的美化版 `README.md`，采用学术项目常用结构并优化可读性：
-
 # ReflectCode: Adversarial Reflection-Augmented Code Retrieval Framework
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/reflectcode)
 
 > **Repository-Level Code Retrieval for Change Request-Driven Scenarios**
 
@@ -68,6 +65,15 @@ git submodule update --init --recursive
 | Languages       | 6         |
 | Cross-module    | 68% cases |
 
+RepoAlignBench:
+[![HF Dataset](https://img.shields.io/badge/🤗%20Dataset-RA--Bench-blue)](https://huggingface.co/datasets/yourusername/cr-bench)
+
+RepoAlignBench-Medium:
+[![HF Dataset](https://img.shields.io/badge/🤗%20Dataset-RAMedium--Bench-blue)](https://huggingface.co/datasets/yourusername/cr-bench)
+
+RepoAlignBench-Hard:
+[![HF Dataset](https://img.shields.io/badge/🤗%20Dataset-RAHard--Bench-blue)](https://huggingface.co/datasets/yourusername/cr-bench)
+
 ## 📦 Submodule Structure
 ```text
 vendor/
@@ -85,10 +91,10 @@ Liu, A., Song, S., Li, H., Yang, C., Shu, Z., & Qi, Y. (Year of publication). Be
 ```
 Bib Format
 ```bibtex
-@article{reflectcode2023,
-  title={Adversarial Reflection-Augmented Code Retrieval},
-  author={L, Co-authors},
-  journal={Proceedings of XYZ},
+@article{Liu2024Beyond,
+  title={Beyond Function-Level Search: Repository-Aware Dual-Encoder Code Retrieval with Adversarial Verification},
+  author={Liu, Aofan and Song, Shiyuan and Li, Haoxuan and Yang, Cehao and Shu, Zishan and Qi, Yiyan},
+  journal={arXiv preprint arXiv:2402.14323},
   year={2024}
 }
 ```
