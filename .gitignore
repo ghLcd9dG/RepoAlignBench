@@ -1,4 +1,3 @@
-logs/
 ctags/
 wandb/
 own_ds/
@@ -9,7 +8,6 @@ resources/saved_metric/
 resources/saved_models/
 resources/saved_predictions/
 
-*.log
 *.tmp
 *.bak
 
