@@ -94,23 +94,3 @@ vendor/
 ├── tree-sitter-php         # PHP language support
 └── ...                     # Other language parsers
 ```
-
-## 📝 Citation
-If you use ReflectCode in your research, please cite:
-
-```
-Liu, A., Song, S., Li, H., Yang, C., Shu, Z., & Qi, Y. (Year of publication). Beyond Function-Level Search: Repository-Aware Dual-Encoder Code Retrieval with Adversarial Verification. 
-```
-Bib Format
-```bibtex
-@article{Liu2024Beyond,
-  title={Beyond Function-Level Search: Repository-Aware Dual-Encoder Code Retrieval with Adversarial Verification},
-  author={Liu, Aofan and Song, Shiyuan and Li, Haoxuan and Yang, Cehao and Shu, Zishan and Qi, Yiyan},
-  journal={arXiv preprint arXiv:2402.14323},
-  year={2024}
-}
-```
-
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
